@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.container{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:300px;
+    text-align:center;
+}
+
+input{
+    padding:8px;
+    width:70%;
+}
+
+button{
+    padding:8px 12px;
+    cursor:pointer;
+}
+
+li{
+    margin-top:10px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+}
+
+li span{
+    cursor:pointer;
+}
+
+li span.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.counter{
+    font-size:13px;
+    color:#888;
+    margin-bottom:8px;
+    text-align:left;
+}
